@@ -1,0 +1,114 @@
+#body {
+    height: 50%;
+    width: 99%;
+    background-color: white;
+    margin: 0px;
+}
+
+#headlinebox {
+    text-align: center;
+    background-color: lightblue;
+    width:100.7%;
+    border-style:dashed;
+}
+
+#headline { 
+    font-size:xx-large;
+
+}
+
+#tabsP {
+    position: relative;
+    transform: scale(0.08);
+    top: -100px;
+    left: 1220px;
+    margin: -300px;
+}
+
+.tabsbox {
+    width: 55px;
+    height: 170px;
+    background-color: gray;
+    position: absolute;
+    left: 1148px;
+    top: 70px;
+    opacity: .9;
+    display: none;
+    list-style: none;
+    z-index: 10;
+}
+
+#clockp {
+    transform: scale(2.3);
+    position: absolute;
+    left: 19px;
+    top: 30px;
+}
+
+#quizp {
+    transform: scale(2.3);
+    position: absolute;
+    left: 23px;
+    top: 80px;
+}
+
+#todop {
+    transform: scale(2.3);
+    position: absolute;
+    left: 20px;
+    top: 130px;
+}
+
+.box {
+    width: 100%;
+}
+
+.box1 {
+    background-color: white;
+    position: absolute;
+    top:105px;
+    left: 10px;
+    width: 98.2%;
+    height: 79%;
+}
+
+.header {
+    text-align: center;
+    margin:20px;
+
+}
+
+.monkey {
+    border-radius: 25px;
+    padding:10px;
+    margin:10px;
+}
+
+.todolist {
+    position: relative;
+    left:500px;
+    width: 50%;
+}
+
+.add {
+    text-align: center;
+    padding: 20px;
+}
+
+.filtered {
+    display: none;
+}
+
+#drinkadd {
+    transform:scale(1.35);
+    position: absolute;
+    top: 165px;
+    left: 40px;
+}
+
+#subwayadd {
+    transform:scale(0.9);
+    position: absolute;
+    top: 65px;
+    left: 938px;
+}

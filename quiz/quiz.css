@@ -1,0 +1,119 @@
+#body {
+    height: 100%;
+    width: 99%;
+    margin: 0px;
+}
+
+#headlinebox {
+    text-align: center;
+    background-color: lightblue;
+    width:100.7%;
+    border-style:dashed;
+}
+
+#headline { 
+    font-size:xx-large;
+
+}
+
+#tabsP {
+    position: relative;
+    transform: scale(0.08);
+    top: -100px;
+    left: 1220px;
+    margin: -300px;
+}
+
+.tabsbox {
+    width: 55px;
+    height: 170px;
+    background-color: gray;
+    position: absolute;
+    left: 1148px;
+    top: 70px;
+    opacity: .9;
+    display: none;
+    list-style: none;
+    z-index: 10;
+}
+
+#clockp {
+    transform: scale(2.3);
+    position: absolute;
+    left: 19px;
+    top: 30px;
+}
+
+#quizp {
+    transform: scale(2.3);
+    position: absolute;
+    left: 23px;
+    top: 80px;
+}
+
+#todop {
+    transform: scale(2.3);
+    position: absolute;
+    left: 20px;
+    top: 130px;
+}
+
+.result {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+}
+
+.score {
+    font-size: 20px;
+    color: red;
+}
+
+.quizbox1 {
+    width: 100%;
+}
+
+.quizbox {
+    background-color: white;
+    position: absolute;
+    top:170px;
+    left: 10px;
+    width: 98.2%;
+    height: 225%;
+}
+
+.quiz-form {
+    text-align: center;
+}
+
+
+.qhead {
+    background-color: lightgray;
+    margin: 0;
+    padding: 10px;
+    border-color: black;
+    border-top:groove;
+}
+
+.questions {
+    padding:5px;
+}
+
+.button {
+    position:relative;
+    left:10px;
+    border-radius: 12px;
+    margin: 30px;
+    transform: scale(2);
+    padding: 3px;
+
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+input[type=radio] .right {
+    accent-color: rgb(0, 255, 0);
+}

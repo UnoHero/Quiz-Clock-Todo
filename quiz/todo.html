@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href ="todo.css">
+    <script src="https://kit.fontawesome.com/c9c1d5d955.js" crossorigin="anonymous"></script>
+    <title>Todo</title>
+</head>
+<body id = "body">
+
+    <div id ="headlinebox">
+        <h2 id = "headline">Todo</h2>
+    </div>
+    
+    <div class = "tabs">
+        <img id ="tabsP" alt="Tabs" src="Pictures/54206.png">
+        <div class = "tabsbox">
+            <a>
+                <a href="clock.html">
+                    <li> <i class="fa-regular fa-clock" id = "clockp"></i> </li>
+                </a>
+                <a href="quiz.html">
+                    <li> <i class="fa-solid fa-question" id ="quizp"></i> </li>
+                </a>
+                <a href="todo.html">
+                    <li> <i class="fa-regular fa-circle-check" id = "todop"></i> </li>
+                </a>
+            </a>
+        </div>
+    </div>
+
+    <audio id = clickaudio src="Audio/click.wav"></audio>
+
+    <div class="box">
+        <div class="box1">
+            <header class="header">
+                <form class="search" onsubmit="return false" autocomplete="off">
+                <input class="monkey " type="text" name="search" placeholder="search todos" />
+                </form>
+            </header>
+    
+            <ul class="todos todolist">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>Eat Dinner</span>
+                <i class="far fa-trash-alt delete"></i>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>Play minecraft</span>
+                <i class="far fa-trash-alt delete"></i>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>Become emperor of the sea.</span>
+                <i class="far fa-trash-alt delete"></i>
+                </li>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>Become the Pirate King.</span>
+                <i class="far fa-trash-alt delete"></i>
+                </li>
+            </ul>
+    
+            <form class="add">
+                <label class="text-light">Add a new todo...</label>
+                <input class="form-control m-auto" type="text" name="add" autocomplete="off"/>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <div>
+            <img id ="drinkadd" alt="Cola ADD" src="Pictures/Wheat2.jpg">
+        </div>
+        <div>
+            <img id ="subwayadd" alt="SubWay ADD" src="Pictures/Subway.webp">
+        </div>
+    </div>
+
+    <script src="todo.js"></script>
+</body>
+</html>
